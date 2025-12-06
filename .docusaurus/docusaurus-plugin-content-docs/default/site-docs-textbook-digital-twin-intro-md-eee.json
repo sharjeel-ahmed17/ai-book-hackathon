@@ -1,0 +1,27 @@
+{
+  "id": "textbook/digital-twin/intro",
+  "title": "Weeks 6-7: Digital Twin Workflows",
+  "description": "This section covers digital twin concepts and workflows - virtual replicas of physical systems used for simulation, testing, and optimization. You'll learn how to create and use digital twins for robotics development and testing.",
+  "source": "@site/docs/textbook/digital-twin/intro.md",
+  "sourceDirName": "textbook/digital-twin",
+  "slug": "/textbook/digital-twin/intro",
+  "permalink": "/docs/textbook/digital-twin/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sharjeel-ahmed17/ai-book-hackathon/edit/main/docs/textbook/digital-twin/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Weeks 3-5: ROS 2",
+    "permalink": "/docs/textbook/ros2/intro"
+  },
+  "next": {
+    "title": "Weeks 8-10: NVIDIA Isaac",
+    "permalink": "/docs/textbook/nvidia-isaac/intro"
+  }
+}
