@@ -1,9 +1,19 @@
 # Feature Specification: [FEATURE NAME]
 
-**Feature Branch**: `[###-feature-name]`  
-**Created**: [DATE]  
-**Status**: Draft  
+**Feature Branch**: `[###-feature-name]`
+**Created**: [DATE]
+**Status**: Draft
 **Input**: User description: "$ARGUMENTS"
+
+## Constitution Alignment
+
+This specification must align with the Physical AI Humanoid Robotics Textbook Constitution principles:
+1. **Educational Excellence**: Prioritizes clarity, accuracy, and accessibility for diverse learning audiences
+2. **Docusaurus-First Documentation**: Content structured using Docusaurus framework for consistent presentation
+3. **Spec-Driven Development**: Clear specifications using Spec-Kit Plus methodology
+4. **AI-Assisted Development**: Leverages Claude Code and Spec-Kit Plus for consistency and quality
+5. **Humanoid Robotics Focus**: Maintains focus on humanoid robotics applications and principles
+6. **Practical Implementation**: Accompanied by practical examples and code implementations
 
 ## User Scenarios & Testing *(mandatory)*
 

@@ -8,6 +8,14 @@ description: "Task list template for feature implementation"
 **Input**: Design documents from `/specs/[###-feature-name]/`
 **Prerequisites**: plan.md (required), spec.md (required for user stories), research.md, data-model.md, contracts/
 
+**Constitution Alignment**: All tasks must align with Physical AI Humanoid Robotics Textbook Constitution principles:
+1. **Educational Excellence**: Prioritizes clarity, accuracy, and accessibility for diverse learning audiences
+2. **Docusaurus-First Documentation**: Content structured using Docusaurus framework for consistent presentation
+3. **Spec-Driven Development**: Clear specifications using Spec-Kit Plus methodology
+4. **AI-Assisted Development**: Leverages Claude Code and Spec-Kit Plus for consistency and quality
+5. **Humanoid Robotics Focus**: Maintains focus on humanoid robotics applications and principles
+6. **Practical Implementation**: Accompanied by practical examples and code implementations
+
 **Tests**: The examples below include test tasks. Tests are OPTIONAL - only include them if explicitly requested in the feature specification.
 
 **Organization**: Tasks are grouped by user story to enable independent implementation and testing of each story.
