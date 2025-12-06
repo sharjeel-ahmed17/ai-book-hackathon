@@ -1,0 +1,27 @@
+{
+  "id": "setup-guides/intro",
+  "title": "Platform Setup Guides",
+  "description": "This section provides detailed instructions for setting up your development environment for the Physical AI Humanoid Robotics course. You can choose from three platform options based on your available resources and preferences.",
+  "source": "@site/docs/setup-guides/intro.md",
+  "sourceDirName": "setup-guides",
+  "slug": "/setup-guides/intro",
+  "permalink": "/docs/setup-guides/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sharjeel-ahmed17/ai-book-hackathon/edit/main/docs/setup-guides/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Capstone: Autonomous Humanoid Pipeline",
+    "permalink": "/docs/textbook/capstone/intro"
+  },
+  "next": {
+    "title": "Digital Twin Workstation Setup",
+    "permalink": "/docs/setup-guides/digital-twin-workstation/setup"
+  }
+}

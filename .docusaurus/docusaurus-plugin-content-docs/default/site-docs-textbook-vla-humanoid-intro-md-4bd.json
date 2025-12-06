@@ -1,0 +1,27 @@
+{
+  "id": "textbook/vla-humanoid/intro",
+  "title": "Weeks 11-13: VLA Models and Humanoid Robotics",
+  "description": "This section explores Vision-Language-Action (VLA) models and their applications in humanoid robotics. You'll learn how to implement and use VLA models for complex robotic tasks and human-robot interaction.",
+  "source": "@site/docs/textbook/vla-humanoid/intro.md",
+  "sourceDirName": "textbook/vla-humanoid",
+  "slug": "/textbook/vla-humanoid/intro",
+  "permalink": "/docs/textbook/vla-humanoid/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sharjeel-ahmed17/ai-book-hackathon/edit/main/docs/textbook/vla-humanoid/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Weeks 8-10: NVIDIA Isaac",
+    "permalink": "/docs/textbook/nvidia-isaac/intro"
+  },
+  "next": {
+    "title": "Capstone: Autonomous Humanoid Pipeline",
+    "permalink": "/docs/textbook/capstone/intro"
+  }
+}

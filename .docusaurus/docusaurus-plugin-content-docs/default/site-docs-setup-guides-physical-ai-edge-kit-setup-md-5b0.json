@@ -1,0 +1,27 @@
+{
+  "id": "setup-guides/physical-ai-edge-kit/setup",
+  "title": "Physical AI Edge Kit Setup",
+  "description": "This guide will help you set up the Physical AI Edge Kit hardware for the Physical AI Humanoid Robotics course.",
+  "source": "@site/docs/setup-guides/physical-ai-edge-kit/setup.md",
+  "sourceDirName": "setup-guides/physical-ai-edge-kit",
+  "slug": "/setup-guides/physical-ai-edge-kit/setup",
+  "permalink": "/docs/setup-guides/physical-ai-edge-kit/setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sharjeel-ahmed17/ai-book-hackathon/edit/main/docs/setup-guides/physical-ai-edge-kit/setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Digital Twin Workstation Setup",
+    "permalink": "/docs/setup-guides/digital-twin-workstation/setup"
+  },
+  "next": {
+    "title": "Cloud-Native Environment Setup",
+    "permalink": "/docs/setup-guides/cloud-native/setup"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "textbook/nvidia-isaac/intro",
+  "title": "Weeks 8-10: NVIDIA Isaac",
+  "description": "This section introduces NVIDIA Isaac - a comprehensive robotics platform that includes Isaac Sim for simulation and Isaac ROS for perception and navigation. You'll learn how to leverage NVIDIA's GPU-accelerated tools for robotics development.",
+  "source": "@site/docs/textbook/nvidia-isaac/intro.md",
+  "sourceDirName": "textbook/nvidia-isaac",
+  "slug": "/textbook/nvidia-isaac/intro",
+  "permalink": "/docs/textbook/nvidia-isaac/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sharjeel-ahmed17/ai-book-hackathon/edit/main/docs/textbook/nvidia-isaac/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Weeks 6-7: Digital Twin Workflows",
+    "permalink": "/docs/textbook/digital-twin/intro"
+  },
+  "next": {
+    "title": "Weeks 11-13: VLA Models and Humanoid Robotics",
+    "permalink": "/docs/textbook/vla-humanoid/intro"
+  }
+}

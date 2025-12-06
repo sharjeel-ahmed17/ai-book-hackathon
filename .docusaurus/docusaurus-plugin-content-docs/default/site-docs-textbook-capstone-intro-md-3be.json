@@ -1,0 +1,27 @@
+{
+  "id": "textbook/capstone/intro",
+  "title": "Capstone: Autonomous Humanoid Pipeline",
+  "description": "This capstone project integrates all concepts learned throughout the course to build an autonomous humanoid pipeline that processes speech commands and executes complex tasks involving planning, navigation, perception, and manipulation.",
+  "source": "@site/docs/textbook/capstone/intro.md",
+  "sourceDirName": "textbook/capstone",
+  "slug": "/textbook/capstone/intro",
+  "permalink": "/docs/textbook/capstone/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sharjeel-ahmed17/ai-book-hackathon/edit/main/docs/textbook/capstone/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Weeks 11-13: VLA Models and Humanoid Robotics",
+    "permalink": "/docs/textbook/vla-humanoid/intro"
+  },
+  "next": {
+    "title": "Platform Setup Guides",
+    "permalink": "/docs/setup-guides/intro"
+  }
+}

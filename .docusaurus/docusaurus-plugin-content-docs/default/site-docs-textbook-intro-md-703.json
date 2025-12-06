@@ -1,0 +1,23 @@
+{
+  "id": "textbook/intro",
+  "title": "Physical AI Humanoid Robotics Textbook",
+  "description": "Welcome to the comprehensive guide to Physical AI and Humanoid Robotics. This textbook supports a 13-week training program for industry engineers with Python knowledge, covering essential topics from foundational concepts through advanced humanoid robotics applications.",
+  "source": "@site/docs/textbook/intro.md",
+  "sourceDirName": "textbook",
+  "slug": "/textbook/intro",
+  "permalink": "/docs/textbook/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sharjeel-ahmed17/ai-book-hackathon/edit/main/docs/textbook/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "textbookSidebar",
+  "next": {
+    "title": "Weeks 1-2: Foundations of Physical AI",
+    "permalink": "/docs/textbook/foundations/intro"
+  }
+}
