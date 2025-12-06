@@ -1,106 +1,63 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---ai-book-hackathon-docusaurus-debugb-38-52d"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---ai-book-hackathon-docusaurus-debugb-38-52d"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---ai-book-hackathon-docusaurus-debugb-38-52d"
-    },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---ai-book-hackathon-docusaurus-debugb-38-52d"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---ai-book-hackathon-docusaurus-debugb-38-52d"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---ai-book-hackathon-docusaurus-debugb-38-52d"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---ai-book-hackathon-docusaurus-debugb-38-52d"
-    }
-  },
   "/docs-287": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---ai-book-hackathon-docsaba-4e6"
+      "plugin": "aba21aa0"
     }
   },
   "/docs-928": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
   },
   "/docs-dd1": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/docs/intro-853": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/docs/setup-guides/cloud-native/setup-a6e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-hackathon-docs-setup-guides-cloud-native-setup-80-c-1c0"
+    "__comp": "17896441",
+    "content": "80c0416c"
   },
   "/docs/setup-guides/digital-twin-workstation/setup-229": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-hackathon-docs-setup-guides-digital-twin-workstation-setup-596-96d"
+    "__comp": "17896441",
+    "content": "596f003e"
   },
   "/docs/setup-guides/intro-df0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-hackathon-docs-setup-guides-intro-932-b80"
+    "__comp": "17896441",
+    "content": "932323d5"
   },
   "/docs/setup-guides/physical-ai-edge-kit/setup-c39": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-hackathon-docs-setup-guides-physical-ai-edge-kit-setup-5-b-0-10d"
+    "__comp": "17896441",
+    "content": "5b09fe9f"
   },
   "/docs/textbook/capstone/intro-d62": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-hackathon-docs-textbook-capstone-intro-3-be-d10"
+    "__comp": "17896441",
+    "content": "3beba074"
   },
   "/docs/textbook/digital-twin/intro-d0b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-hackathon-docs-textbook-digital-twin-introeee-98f"
+    "__comp": "17896441",
+    "content": "eee4ed19"
   },
   "/docs/textbook/foundations/intro-cbe": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-hackathon-docs-textbook-foundations-introe-22-ecf"
+    "__comp": "17896441",
+    "content": "e220eae1"
   },
   "/docs/textbook/intro-a48": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-hackathon-docs-textbook-intro-703-d70"
+    "__comp": "17896441",
+    "content": "703dc2b2"
   },
   "/docs/textbook/nvidia-isaac/intro-70b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-hackathon-docs-textbook-nvidia-isaac-introa-0-c-023"
+    "__comp": "17896441",
+    "content": "a0cec0ab"
   },
   "/docs/textbook/ros2/intro-47d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-hackathon-docs-textbook-ros-2-introc-7-c-225"
+    "__comp": "17896441",
+    "content": "c7c52c34"
   },
   "/docs/textbook/vla-humanoid/intro-3e0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---ai-book-hackathon-docs-textbook-vla-humanoid-intro-4-bd-d5d"
+    "__comp": "17896441",
+    "content": "4bd9a5ad"
   }
 }

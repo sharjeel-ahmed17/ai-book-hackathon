@@ -6,9 +6,9 @@
 export default {
   "title": "Physical AI Humanoid Robotics Textbook",
   "tagline": "A comprehensive guide to Physical AI and Humanoid Robotics",
-  "url": "https://sharjeel-ahmed17.github.io",
+  "url": "https://ai-book-hackathon.vercel.app",
   "baseUrl": "/",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "ignore",
   "favicon": "img/favicon.ico",
   "organizationName": "sharjeel-ahmed17",
   "projectName": "ai-book-hackathon",
