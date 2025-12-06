@@ -1,3 +1,4 @@
+<<<<<<< feat/add-project-constitution
 # Physical AI Humanoid Robotics Textbook
 
 This project is developing a comprehensive textbook on Physical AI and Humanoid Robotics using Docusaurus for documentation and GitHub Pages for publishing. The project follows Spec-Kit Plus and Claude Code methodologies for AI-assisted, specification-driven development of learning materials focused on humanoid robotics.
@@ -17,3 +18,7 @@ This project is governed by the principles outlined in the [Project Constitution
 - AI-Assisted Development
 - Humanoid Robotics Focus
 - Practical Implementation
+=======
+AI hackathon
+hello
+>>>>>>> main
