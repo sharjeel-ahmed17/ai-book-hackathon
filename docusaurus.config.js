@@ -5,7 +5,7 @@
 module.exports = {
   title: 'Physical AI Humanoid Robotics Textbook',
   tagline: 'A comprehensive guide to Physical AI and Humanoid Robotics',
-  url: 'https://sharjeel-ahmed17.github.io',
+  url: 'https://your-project-name.vercel.app', // Replace with your actual Vercel URL after deployment
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
