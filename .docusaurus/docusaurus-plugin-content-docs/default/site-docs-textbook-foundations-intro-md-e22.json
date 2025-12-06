@@ -1,0 +1,27 @@
+{
+  "id": "textbook/foundations/intro",
+  "title": "Weeks 1-2: Foundations of Physical AI",
+  "description": "This section covers the fundamental concepts of Physical AI - the integration of artificial intelligence with physical systems. You'll learn how AI algorithms interact with the real world through sensors, actuators, and control systems.",
+  "source": "@site/docs/textbook/foundations/intro.md",
+  "sourceDirName": "textbook/foundations",
+  "slug": "/textbook/foundations/intro",
+  "permalink": "/docs/textbook/foundations/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sharjeel-ahmed17/ai-book-hackathon/edit/main/docs/textbook/foundations/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Physical AI Humanoid Robotics Textbook",
+    "permalink": "/docs/textbook/intro"
+  },
+  "next": {
+    "title": "Weeks 3-5: ROS 2",
+    "permalink": "/docs/textbook/ros2/intro"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "textbook/ros2/intro",
+  "title": "Weeks 3-5: ROS 2",
+  "description": "This section introduces the Robot Operating System (ROS 2) - a flexible framework for writing robot software. You'll learn about ROS 2 architecture, nodes, topics, services, and how to use ROS 2 with Python for robotics applications.",
+  "source": "@site/docs/textbook/ros2/intro.md",
+  "sourceDirName": "textbook/ros2",
+  "slug": "/textbook/ros2/intro",
+  "permalink": "/docs/textbook/ros2/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sharjeel-ahmed17/ai-book-hackathon/edit/main/docs/textbook/ros2/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Weeks 1-2: Foundations of Physical AI",
+    "permalink": "/docs/textbook/foundations/intro"
+  },
+  "next": {
+    "title": "Weeks 6-7: Digital Twin Workflows",
+    "permalink": "/docs/textbook/digital-twin/intro"
+  }
+}

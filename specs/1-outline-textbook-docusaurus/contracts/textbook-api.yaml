@@ -1,0 +1,165 @@
+openapi: 3.0.0
+info:
+  title: Physical AI Humanoid Robotics Textbook API
+  description: API for textbook content management and learning features
+  version: 1.0.0
+servers:
+  - url: https://api.physical-ai-textbook.com/v1
+    description: Production server
+paths:
+  /textbook/sections:
+    get:
+      summary: Get all textbook sections
+      description: Retrieve all sections of the textbook following the 13-week curriculum
+      responses:
+        '200':
+          description: List of textbook sections
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TextbookSection'
+  /textbook/sections/{sectionId}:
+    get:
+      summary: Get a specific textbook section
+      description: Retrieve details of a specific textbook section
+      parameters:
+        - name: sectionId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID of the textbook section
+      responses:
+        '200':
+          description: Details of the textbook section
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TextbookSection'
+  /platform-setup-guides:
+    get:
+      summary: Get all platform setup guides
+      description: Retrieve all available platform setup guides
+      responses:
+        '200':
+          description: List of platform setup guides
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PlatformSetupGuide'
+components:
+  schemas:
+    TextbookSection:
+      type: object
+      required:
+        - id
+        - name
+        - description
+        - weeks
+        - learningObjectives
+        - contentFiles
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the section
+        name:
+          type: string
+          description: Name of the textbook section
+        description:
+          type: string
+          description: Brief description of the section content
+        weeks:
+          type: string
+          description: The weeks covered by this section (e.g., "Weeks 1-2")
+        learningObjectives:
+          type: array
+          items:
+            type: string
+          description: List of learning objectives for this section
+        prerequisites:
+          type: array
+          items:
+            type: string
+          description: Prerequisites needed before this section
+        contentFiles:
+          type: array
+          items:
+            type: string
+          description: List of content files in this section
+        exercises:
+          type: array
+          items:
+            $ref: '#/components/schemas/Exercise'
+    Exercise:
+      type: object
+      required:
+        - title
+        - description
+        - difficulty
+        - estimatedTime
+        - requirements
+      properties:
+        title:
+          type: string
+          description: Title of the exercise
+        description:
+          type: string
+          description: Detailed description of the exercise
+        difficulty:
+          type: string
+          enum: [beginner, intermediate, advanced]
+          description: Difficulty level of the exercise
+        estimatedTime:
+          type: integer
+          description: Estimated time to complete in minutes
+        requirements:
+          type: array
+          items:
+            type: string
+          description: Technical requirements for the exercise
+        solution:
+          type: string
+          description: Solution or guidance for the exercise
+    PlatformSetupGuide:
+      type: object
+      required:
+        - id
+        - name
+        - description
+        - prerequisites
+        - steps
+        - validationSteps
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the guide
+        name:
+          type: string
+          description: Name of the platform
+        description:
+          type: string
+          description: Brief description of the platform
+        prerequisites:
+          type: array
+          items:
+            type: string
+          description: Prerequisites for setting up this platform
+        steps:
+          type: array
+          items:
+            type: string
+          description: Step-by-step setup instructions
+        troubleshooting:
+          type: array
+          items:
+            type: string
+          description: Common issues and solutions
+        validationSteps:
+          type: array
+          items:
+            type: string
+          description: Steps to verify successful setup

@@ -31,7 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+1. **Educational Excellence**: All features must prioritize clarity, accuracy, and accessibility for diverse learning audiences
+2. **Docusaurus-First Documentation**: All content must be structured using Docusaurus framework for consistent presentation and publishing
+3. **Spec-Driven Development**: All features must begin with clear specifications using Spec-Kit Plus methodology
+4. **AI-Assisted Development**: Leverage Claude Code and Spec-Kit Plus for all development tasks to ensure consistency and quality
+5. **Humanoid Robotics Focus**: All content must maintain clear focus on humanoid robotics applications and principles
+6. **Practical Implementation**: All theoretical concepts must be accompanied by practical examples, code implementations, or simulation demonstrations
 
 ## Project Structure
 
