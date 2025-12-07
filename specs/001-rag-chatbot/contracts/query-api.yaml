@@ -1,0 +1,109 @@
+# API Contract: RAG Chatbot Query Service
+
+## Query Endpoint
+
+### POST /api/v1/query
+Process a user query against the book content
+
+#### Request
+```json
+{
+  "query": "What are the main principles of RAG systems?",
+  "context_type": "FULL_BOOK",
+  "selected_text": "Optional text for selected-text queries",
+  "session_id": "Optional session identifier"
+}
+```
+
+**Request Fields:**
+- `query` (string, required): The user's question or query
+- `context_type` (enum, required): "FULL_BOOK" or "SELECTED_TEXT"
+- `selected_text` (string, optional): Specific text for selected-text context
+- `session_id` (string, optional): Session identifier for conversation history
+
+#### Response
+```json
+{
+  "response_id": "uuid-string",
+  "answer": "The main principles of RAG systems include...",
+  "source_references": [
+    {
+      "reference": "Chapter 3, Section 2, Page 45",
+      "text": "Original text from the book that supports this answer",
+      "relevance_score": 0.92
+    }
+  ],
+  "session_id": "session-uuid",
+  "validation_status": "PASSED"
+}
+```
+
+**Response Fields:**
+- `response_id` (string): Unique identifier for this response
+- `answer` (string): The chatbot's answer to the query
+- `source_references` (array): List of source references used
+- `session_id` (string): Session identifier (newly created if not provided)
+- `validation_status` (enum): "PASSED" if content grounding validation passed
+
+#### Error Responses
+- `400 Bad Request`: Invalid request format
+- `422 Unprocessable Entity`: Query cannot be answered from book content
+- `500 Internal Server Error`: Processing error
+
+---
+
+## Ingestion Endpoint
+
+### POST /api/v1/ingest
+Ingest book content for retrieval
+
+#### Request
+```json
+{
+  "book_id": "unique-book-identifier",
+  "title": "Book Title",
+  "content": "Full book content in markdown format",
+  "metadata": {
+    "author": "Author Name",
+    "publication_date": "2023-01-01",
+    "chapters": [
+      {
+        "chapter_number": 1,
+        "title": "Introduction",
+        "start_page": 1,
+        "end_page": 20
+      }
+    ]
+  }
+}
+```
+
+#### Response
+```json
+{
+  "status": "success",
+  "content_id": "uuid-of-ingested-content",
+  "chunks_processed": 42,
+  "processing_time_ms": 1250
+}
+```
+
+---
+
+## Health Check Endpoint
+
+### GET /api/v1/health
+Check the health status of the service
+
+#### Response
+```json
+{
+  "status": "healthy",
+  "timestamp": "2023-12-07T10:30:00Z",
+  "dependencies": {
+    "qdrant": "connected",
+    "postgres": "connected",
+    "embedding_service": "available"
+  }
+}
+```
