@@ -1,0 +1,15 @@
+{
+  "id": "api_documentation",
+  "title": "RAG Chatbot API Documentation",
+  "description": "Overview",
+  "source": "@site/docs/api_documentation.md",
+  "sourceDirName": ".",
+  "slug": "/api_documentation",
+  "permalink": "/docs/api_documentation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sharjeel-ahmed17/ai-book-hackathon/edit/main/docs/api_documentation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

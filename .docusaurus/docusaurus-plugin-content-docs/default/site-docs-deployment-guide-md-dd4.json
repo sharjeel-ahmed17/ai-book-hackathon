@@ -1,0 +1,15 @@
+{
+  "id": "deployment_guide",
+  "title": "Deployment Guide: RAG Chatbot for Published Book",
+  "description": "Overview",
+  "source": "@site/docs/deployment_guide.md",
+  "sourceDirName": ".",
+  "slug": "/deployment_guide",
+  "permalink": "/docs/deployment_guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/sharjeel-ahmed17/ai-book-hackathon/edit/main/docs/deployment_guide.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

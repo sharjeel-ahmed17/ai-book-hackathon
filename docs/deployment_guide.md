@@ -24,7 +24,7 @@ This guide provides instructions for deploying the RAG Chatbot with free-tier co
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone `${https://github.com/sharjeel-ahmed17/ai-book-hackathon}`
 cd ai-book-hackathon
 ```
 
@@ -149,7 +149,7 @@ docker run -d \
 - Cache embeddings to avoid regenerating them
 
 ### 3. Monitoring
-- Monitor response times to ensure <2s performance
+- Monitor response times to ensure &lt;2s performance
 - Track API usage to stay within free tier limits
 - Set up alerts for service degradation
 

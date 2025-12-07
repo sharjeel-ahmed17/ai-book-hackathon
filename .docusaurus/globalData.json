@@ -11,6 +11,14 @@
           "mainDocId": "textbook/intro",
           "docs": [
             {
+              "id": "api_documentation",
+              "path": "/docs/api_documentation"
+            },
+            {
+              "id": "deployment_guide",
+              "path": "/docs/deployment_guide"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro"
             },
