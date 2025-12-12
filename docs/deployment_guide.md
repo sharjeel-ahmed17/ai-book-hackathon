@@ -149,7 +149,7 @@ docker run -d \
 - Cache embeddings to avoid regenerating them
 
 ### 3. Monitoring
-- Monitor response times to ensure <2s performance
+- Monitor response times to ensure `<2s` performance
 - Track API usage to stay within free tier limits
 - Set up alerts for service degradation
 
